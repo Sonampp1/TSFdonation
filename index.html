@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <title>TSF Payment Gateway</title>
+
+    <!-- attach our stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- the header -->
+    <header>
+
+        <!-- our main logo -->
+        <a id="logo" href="index.html">
+            <img src="img/TSF.png" alt="Logo">
+            <span>TheSparksFoundation</span>
+        </a>
+
+        <!-- main navigation links -->
+        <nav>
+            <ul>
+                <li><a href="https://www.thesparksfoundationsingapore.org/">TheSparksFoundation</a></li>
+                <li><a href="https://rzp.io/l/ws8pmnch">Donate For a Cause</a></li>
+                
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- the content -->
+    <main>
+
+        <!-- main content -->
+        <div class="main">
+            <!-- content for the main -->
+            <div class="main-content">
+                <h1 class="main-title">The Sparks Foundation Trust</h1>
+                <p>Joining Our Missions is the most impactful way to give.</p>
+
+                
+                <div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_GQHuDYsVqs76fe/view" data-text="Donate For A Cause" data-color="#528FF0" data-size="large">
+                </div>
+    
+            </div>
+        </div>
+
+        <!-- features section -->
+        <div class="site-section">
+        <div class="site-section-inside">
+
+            <div class="section-header">
+                <h2>Key Features</h2>
+            </div>
+
+            <div class="feature-box">
+                <img src="img/nonprofits.jpg" alt="Easy to Use">
+                <h5>Nonprofits</h5>
+                <p>Nonprofits around the world apply and join GlobalGiving to access more funding, to build new skills, and to make important connections.</p>
+            </div>
+
+            <div class="feature-box">
+                <img src="img/donor.png" alt="Fun to Use">
+                <h5>Donors</h5>
+                <p>People like you give what you can to your favorite projects; you feel great when you get updates about how your money is put to work by trusted organizations. </p>
+            </div>
+
+            <div class="feature-box">
+                <img src="img/companies.jpeg" alt="Fun to Use">
+                <h5>Companies</h5>
+                <p>Generous companies and their employees further support our high-impact projects, thus helping local communities thrive. </p>
+            </div>
+
+
+        </div>
+        </div>
+<script>
+    (function(){
+      var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
+      if(x){ var s=d.createElement('script'); s.defer=!0;s.id='razorpay-embed-btn-js';
+      s.src='https://cdn.razorpay.com/static/embed_btn/bundle.js';d.body.appendChild(s);} else{var rzp=window['__rzp__'];
+      rzp && rzp.init && rzp.init()}})();
+</script>
+</body>
+</html>
